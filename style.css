@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('matrix.jpg') right;
+    background-size: cover;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.counter-box {
+    flex: 0 0 20%;
+    text-align: center;
+    border: 3px solid black;
+    padding: 1rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px 10px whitesmoke;
+    text-shadow: 2px 2px 5px black;
+}
+
+.counter {
+font-size: 6rem;
+}
+
+.btn {
+    background: gray;
+    border-radius: 8px;
+    font-size: 8 rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0.25rem;
+    border: 2px solid black;
+    box-shadow: 1px 3px whitesmoke;
+    text-shadow: 2px 2px 5px black;
+    outline: none;
+
+}
+.btn:hover {
+    background-color: palegoldenrod;
+    color: white;
+
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+
